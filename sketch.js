@@ -80,7 +80,7 @@ function draw() {
   
   background(180);
   //displaying score
-  xPosition = xPosition + 5;
+  xPosition = trex.x;
   text("Score: "+ score, xPosition ,50);
   console.log(trex.x);
   console.log(xPosition)
